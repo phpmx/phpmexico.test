@@ -30,22 +30,22 @@ jobs:
       - name: Create .env file
         uses: SpicyPizza/create-envfile@v1.0
         with:
-          envkey_DB_NAME: ${{ secrets.DB_NAME }}
-          envkey_DB_USER: ${{ secrets.DB_USER }}
-          envkey_DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
-          envkey_DB_HOST: ${{ secrets.DB_HOST }}
-          envkey_DB_PREFIX: ${{ secrets.DB_PREFIX }}
-          envkey_WP_ENV: ${{ secrets.WP_ENV }}
-          envkey_WP_HOME: ${{ secrets.WP_HOME }}
-          envkey_WP_SITEURL: ${{ secrets.WP_SITEURL }}
-          envkey_AUTH_KEY: ${{ secrets.AUTH_KEY }}
-          envkey_SECURE_AUTH_KEY: ${{ secrets.SECURE_AUTH_KEY }}
-          envkey_LOGGED_IN_KEY: ${{ secrets.LOGGED_IN_KEY }}
-          envkey_NONCE_KEY: ${{ secrets.NONCE_KEY }}
-          envkey_AUTH_SALT: ${{ secrets.AUTH_SALT }}
-          envkey_SECURE_AUTH_SALT: ${{ secrets.SECURE_AUTH_SALT }}
-          envkey_LOGGED_IN_SALT: ${{ secrets.LOGGED_IN_SALT }}
-          envkey_NONCE_SALT: ${{ secrets.NONCE_SALT }}
+          envkey_DB_NAME: "${{ secrets.DB_NAME }}"
+          envkey_DB_USER: "${{ secrets.DB_USER }}"
+          envkey_DB_PASSWORD: "${{ secrets.DB_PASSWORD }}"
+          envkey_DB_HOST: "${{ secrets.DB_HOST }}"
+          envkey_DB_PREFIX: "${{ secrets.DB_PREFIX }}"
+          envkey_WP_ENV: "${{ secrets.WP_ENV }}"
+          envkey_WP_HOME: "${{ secrets.WP_HOME }}"
+          envkey_WP_SITEURL: "${{ secrets.WP_SITEURL }}"
+          envkey_AUTH_KEY: "${{ secrets.AUTH_KEY }}"
+          envkey_SECURE_AUTH_KEY: "${{ secrets.SECURE_AUTH_KEY }}"
+          envkey_LOGGED_IN_KEY: "${{ secrets.LOGGED_IN_KEY }}"
+          envkey_NONCE_KEY: "${{ secrets.NONCE_KEY }}"
+          envkey_AUTH_SALT: "${{ secrets.AUTH_SALT }}"
+          envkey_SECURE_AUTH_SALT: "${{ secrets.SECURE_AUTH_SALT }}"
+          envkey_LOGGED_IN_SALT: "${{ secrets.LOGGED_IN_SALT }}"
+          envkey_NONCE_SALT: "${{ secrets.NONCE_SALT }}"
 
       - name: Deploy site
         uses: appleboy/scp-action@v0.1.1
