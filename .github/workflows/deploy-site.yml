@@ -1,8 +1,8 @@
-name: Build & Deploy to Production
+name: Build & Deploy to Staging
 
 on:
   push:
-    branches: [main]
+    branches: [staging]
 
 jobs:
   build:
@@ -54,4 +54,4 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           source: "."
-          target: "/home/${{ secrets.USERNAME }}/phpmexico.erch.dev/"
+          target: "/home/${{ secrets.USERNAME }}/{{ secrets.HOST_PATH }}/"
