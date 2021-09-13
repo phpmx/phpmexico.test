@@ -6,6 +6,8 @@ on:
 
 jobs:
   build:
+    environment: staging
+    
     runs-on: ubuntu-latest
 
     steps:
@@ -53,5 +55,5 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
-          source: "."
-          target: "/home/${{ secrets.USERNAME }}/{{ secrets.HOST_PATH }}/"
+          source: .
+          target: ${{ secrets.HOST_PATH }}
