@@ -41,6 +41,7 @@ jobs:
           envkey_SECURE_AUTH_SALT: "${{ secrets.SECURE_AUTH_SALT }}"
           envkey_LOGGED_IN_SALT: "${{ secrets.LOGGED_IN_SALT }}"
           envkey_NONCE_SALT: "${{ secrets.NONCE_SALT }}"
+          envkey_ACF_PRO_KEY: "${{ secrets.ACF_PRO_KEY }}"
 
       - name: Deploy site
         uses: appleboy/scp-action@v0.1.1
