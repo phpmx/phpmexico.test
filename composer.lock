@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "90e000fbf690126bcc2bcc25b4cd9cc4",
+    "content-hash": "1d21923c532a4c84feaaabdc0770611a",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -358,12 +358,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpmx/wordpress-plugin.git",
-                "reference": "eb8fa873748087391f9bfd2d3111519c10267e10"
+                "reference": "f3a5d54f7d6ae37531d2d38dafa5a8672d63633b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpmx/wordpress-plugin/zipball/eb8fa873748087391f9bfd2d3111519c10267e10",
-                "reference": "eb8fa873748087391f9bfd2d3111519c10267e10",
+                "url": "https://api.github.com/repos/phpmx/wordpress-plugin/zipball/f3a5d54f7d6ae37531d2d38dafa5a8672d63633b",
+                "reference": "f3a5d54f7d6ae37531d2d38dafa5a8672d63633b",
                 "shasum": ""
             },
             "require-dev": {
@@ -390,7 +390,7 @@
                 "source": "https://github.com/phpmx/wordpress-plugin/tree/main",
                 "issues": "https://github.com/phpmx/wordpress-plugin/issues"
             },
-            "time": "2021-10-03T15:35:24+00:00"
+            "time": "2021-10-04T10:26:48+00:00"
         },
         {
             "name": "phpoption/phpoption",
