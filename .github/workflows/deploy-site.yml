@@ -51,3 +51,4 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           source: .
           target: ${{ secrets.HOST_PATH }}
+          overwrite: true
