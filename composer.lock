@@ -358,12 +358,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpmx/wordpress-plugin.git",
-                "reference": "f3a5d54f7d6ae37531d2d38dafa5a8672d63633b"
+                "reference": "5d58f196e9c7d8e9ed589b10be72309dc3a6e59e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpmx/wordpress-plugin/zipball/f3a5d54f7d6ae37531d2d38dafa5a8672d63633b",
-                "reference": "f3a5d54f7d6ae37531d2d38dafa5a8672d63633b",
+                "url": "https://api.github.com/repos/phpmx/wordpress-plugin/zipball/5d58f196e9c7d8e9ed589b10be72309dc3a6e59e",
+                "reference": "5d58f196e9c7d8e9ed589b10be72309dc3a6e59e",
                 "shasum": ""
             },
             "require-dev": {
@@ -390,7 +390,7 @@
                 "source": "https://github.com/phpmx/wordpress-plugin/tree/main",
                 "issues": "https://github.com/phpmx/wordpress-plugin/issues"
             },
-            "time": "2021-10-04T10:26:48+00:00"
+            "time": "2021-10-07T01:59:15+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -1448,15 +1448,15 @@
         },
         {
             "name": "wpackagist-plugin/formidable",
-            "version": "5.0.06",
+            "version": "5.0.07",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/formidable/",
-                "reference": "tags/5.0.06"
+                "reference": "tags/5.0.07"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/formidable.5.0.06.zip"
+                "url": "https://downloads.wordpress.org/plugin/formidable.5.0.07.zip"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
